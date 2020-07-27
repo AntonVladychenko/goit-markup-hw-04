@@ -424,14 +424,16 @@ span {
   justify-content: center;
   color: #afb1b8;
 }
-.clients-link :hover,
-.clients-link :focus {
-  fill: #2196f3;
+
+.clients-svgdiv {
+  fill: currentColor;
 }
+
 .clients-link:hover {
+  color: var(--accent-color);
   border-color: var(--accent-color);
 }
-.clients-svgdiv {
+.clients-svgdiv:hover {
   fill: currentColor;
 }
 
