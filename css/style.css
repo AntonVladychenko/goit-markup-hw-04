@@ -384,7 +384,7 @@ span {
   background-color: #2196f3;
 }
 .sosial-link:hover .sochial-icons {
-  color: #ffffff;
+  fill: #ffffff;
 }
 .social-list-item:not(:last-child) {
   margin-right: 10px;
